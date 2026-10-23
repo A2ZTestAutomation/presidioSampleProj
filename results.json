@@ -1,0 +1,220 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "F:\\Anandhi\\workspace\\playwrightTSWS\\presidioSampleProj\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/fixtureScope.spec.ts",
+      "--workers",
+      "1"
+    ],
+    "configFile": "F:\\Anandhi\\workspace\\playwrightTSWS\\presidioSampleProj\\playwright.config.ts",
+    "rootDir": "F:/Anandhi/workspace/playwrightTSWS/presidioSampleProj/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/Anandhi/workspace/playwrightTSWS/presidioSampleProj/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Chrome",
+        "name": "Chrome",
+        "testDir": "F:/Anandhi/workspace/playwrightTSWS/presidioSampleProj/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "fixturescope.spec.ts",
+      "file": "fixturescope.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test 1 - using fixture",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome",
+              "projectName": "Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 1 - counter value : 1\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T06:12:04.636Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\Anandhi\\workspace\\playwrightTSWS\\presidioSampleProj\\test-results\\fixturescope-Test-1---using-fixture-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a2281e1f0a12750d7fea-54b6b8ccfa0458c68602",
+          "file": "fixturescope.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Test 2 - using fixture",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome",
+              "projectName": "Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 1 - counter value : 2\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T06:12:04.700Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\Anandhi\\workspace\\playwrightTSWS\\presidioSampleProj\\test-results\\fixturescope-Test-2---using-fixture-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a2281e1f0a12750d7fea-69b9327965fd1f0bcc4b",
+          "file": "fixturescope.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "Test 3 - using fixture",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Chrome",
+              "projectName": "Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 1 - counter value : 3\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T06:12:04.722Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\Anandhi\\workspace\\playwrightTSWS\\presidioSampleProj\\test-results\\fixturescope-Test-3---using-fixture-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a2281e1f0a12750d7fea-12f6ab2b82c0e83c4426",
+          "file": "fixturescope.spec.ts",
+          "line": 19,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-21T06:12:03.905Z",
+    "duration": 864.521,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

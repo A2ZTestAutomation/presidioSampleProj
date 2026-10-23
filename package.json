@@ -1,0 +1,24 @@
+{
+  "name": "presidiosampleproj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "chromeMouseRetry": "npx playwright test tests/mouseActions.spec.ts --project Chrome --retries=2",
+    "SmokeTest": "npx playwright test --grep @SmokeTest",
+    "RegTest": "npx playwright test --grep @RegTest",
+    "chromeShard": "npx playwright test --grep @RegTest --shard=2/3 --project Chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "debug": "^4.4.3",
+    "dotenv": "^18.0.8",
+    "fs": "^0.0.1-security"
+  }
+}
