@@ -6,7 +6,8 @@
     "chromeMouseRetry": "npx playwright test tests/mouseActions.spec.ts --project Chrome --retries=2",
     "SmokeTest": "npx playwright test --grep @SmokeTest",
     "RegTest": "npx playwright test --grep @RegTest",
-    "chromeShard": "npx playwright test --grep @RegTest --shard=2/3 --project Chrome"
+    "chromeShard": "npx playwright test --grep @RegTest --shard=2/3 --project Chrome",
+    "test": "npx playwright test tests/demoLogin.spec.ts"
   },
   "keywords": [],
   "author": "",
