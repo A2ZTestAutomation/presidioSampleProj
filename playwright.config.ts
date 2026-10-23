@@ -38,7 +38,7 @@ export default defineConfig({
   // grepInvert: [new RegExp('@SmokeTest')],
 
   use: {
-    headless: false,
+    headless: true,
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
     baseURL: process.env.URLS === '1' ? 'https://danube-webshop.herokuapp.com/' : 'http://www.ivagus.com',
