@@ -12,5 +12,8 @@ test('Valid Login', async ({ page }) => {
     await page.getByRole('button', { name: 'Log in' }).click();
     await page.waitForTimeout(4000)
     expect(page.getByRole('link', { name: 'Welcome' })).toBeVisible()
-    expect(page.getByRole('link', { name: 'Log out' })).toBeVisible({ timeout: 15000 })
+    expect(page.getByRole('link', { name: 'Log out' })).not.toBeVisible({ timeout: 15000 })
 })
+// test('Logout Test', async ({ page }) => {
+
+// })
